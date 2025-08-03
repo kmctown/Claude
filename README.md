@@ -48,6 +48,17 @@ Agents are intelligent, autonomous specialists that:
 **Use When**: Code cleanup, architectural improvements, legacy modernization  
 **Expertise**: Design patterns, separation of concerns, performance optimization, best practices  
 
+### 📋 SRS Requirements Specialist
+**Purpose**: Transforms basic client requirements into comprehensive Software Requirements Specifications  
+**Use When**: Post-meeting requirement documentation, stakeholder alignment, establishing clear project specifications  
+**Expertise**: IEEE 830-1998 standards, requirements elicitation, MoSCoW prioritization, traceability management, non-functional requirements  
+
+### 📝 PRD Specialist
+**Purpose**: Creates comprehensive Product Requirements Documents for development teams  
+**Use When**: Feature specification, product-engineering collaboration, preparing input for task generation  
+**Expertise**: Structured requirement documentation, technical precision, collaborative design patterns  
+**Documentation**: [Usage Guide & Examples](docs/prd-specialist-usage.md)
+
 ## The Orchestrator's Role
 
 The **Project Orchestrator** serves as the master conductor, analyzing complex requirements and coordinating multiple agents:
