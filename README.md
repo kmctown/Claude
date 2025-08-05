@@ -11,6 +11,22 @@ Agents are intelligent, autonomous specialists that:
 - Coordinate with other agents when needed
 - Deliver complete, production-ready solutions
 
+
+## Installation Guide
+
+To maintain a single source of truth for agent configurations, you can symlink the agents directory in this repository to your `~/.claude/agents` directory:
+
+```bash
+ln -s /path/to/this/repository/agents ~/.claude/agents
+```
+
+This creates a symbolic link that points to your main agents repository, ensuring all changes are synchronized automatically. Whenever changes are made to the agents in this repository, you can pull the latest changes by running:
+
+```bash
+cd /path/to/this/repository
+git pull
+```
+
 ## Available Agents
 
 ### 🎯 Project Orchestrator
